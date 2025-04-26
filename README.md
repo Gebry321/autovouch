@@ -15,7 +15,19 @@ You must have these files ready **in the same folder**:
 
 ---
 
-## 3. Open CMD in the Script Folder
+## 3. Edit the Script (Channel ID)
+- Open `main.py` with any text editor (like Notepad or VSCode).
+- Go to **line 16** and **replace** the current number with **your own Discord channel ID**:
+
+```python
+ref = YOUR_CHANNEL_ID_HERE
+```
+
+- If you don't update this, the script won't know where to send the messages!
+
+---
+
+## 4. Open CMD in the Script Folder
 - Open the folder where the files are located.
 - **Shift + Right Click** inside the folder → select **"Open PowerShell window here"** or **"Open Terminal here"**.
 - Or:
@@ -24,7 +36,7 @@ You must have these files ready **in the same folder**:
 
 ---
 
-## 4. Run the Script
+## 5. Run the Script
 In the command line, type:
 
 ```bash
@@ -40,7 +52,7 @@ then press **TAB** to autocomplete the filename, and hit **Enter**.
 
 ---
 
-## 5. Install Missing Libraries
+## 6. Install Missing Libraries
 If you get an error like `ModuleNotFoundError: No module named 'requests'`, you need to install the missing libraries manually:
 
 ```bash
@@ -53,7 +65,7 @@ pip install tls-client
 
 ---
 
-## 6. Important Notes
+## 7. Important Notes
 - **proxies.txt**
   - If empty, the script **won't use proxies**.
   - If filled, it will randomly choose proxies for sending messages.
