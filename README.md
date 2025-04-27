@@ -1,4 +1,4 @@
-# 📜 How To Set Up and Run `auto vouch` Script
+# 📜 How To Set Up and Run `auto vouch/trade/chat`
 
 ## 1. Install Python 3.10 or Higher
 - Download **Python 3.10 or above** from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
